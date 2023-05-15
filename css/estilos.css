@@ -212,3 +212,15 @@ cf img.top { /* Imagen animada propiedades de la transicion */
     color: white;
 
 }
+
+/* FOOTER */
+
+footer{
+  background-color: #808080;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px; 
+  border: 1px solid #000000;
+}
