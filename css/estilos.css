@@ -168,11 +168,15 @@ cf img.top { /* Imagen animada propiedades de la transicion */
 /*fin biografia /*
 
 /* FORMULARIO DE CONSULTAS */
+.dataform-section{
+    margin: 0;
+    padding: 0;
+}
 
 .dataform{
-    width: 400px;
+    width: 500px;
     background-color:#343d46;
-    padding: 30px;
+    padding: 40px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
@@ -184,7 +188,7 @@ cf img.top { /* Imagen animada propiedades de la transicion */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     background: #24303c;
-    padding: 1px;
+    padding: 5px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f43c5;
