@@ -16,6 +16,10 @@ header { /*HEADER CSS*/
   border: 1px solid #000000;
 }
   
+footer{
+  background-image: linear-gradient(to bottom, rgba(255, 238, 0, 0.7), rgb(61, 61, 61));
+}
+
 .logo img { /*LOGO CSS*/
   height: 70px;
 }
