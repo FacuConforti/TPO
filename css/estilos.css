@@ -1,10 +1,13 @@
 body{ /*BODY CSS*/
   margin: 0%;
   font-family:sans-serif ;
+  background-image: url("https://wallpapers.com/images/hd/nirvana-smiley-logo-u6eiborqjj2tb681.jpg");
+  background-size: 30vw;
+  color: whitesmoke;
 }
 
 header { /*HEADER CSS*/
-  background-color: #808080;
+  background-image: linear-gradient(to bottom, rgba(255, 238, 0, 0.7), rgb(61, 61, 61));
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +17,7 @@ header { /*HEADER CSS*/
 }
   
 .logo img { /*LOGO CSS*/
-  height: 50px;
+  height: 70px;
 }
   
 nav ul { /* NAV UL CSS*/
@@ -26,6 +29,7 @@ nav ul { /* NAV UL CSS*/
    
 nav li { /*NAV LI CSS*/
   margin-right: 20px;
+
 }
   
 nav li:last-child { /*NAV LI LAST-CHILD CSS*/
@@ -36,12 +40,12 @@ nav a { /*NAV A CSS*/
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   padding-right: 10px;
+
 }
 
 nav a:hover{ /*NAV A:HOVER CSS*/
-
   color: white;
 
 }
@@ -75,11 +79,12 @@ nav a:hover{ /*NAV A:HOVER CSS*/
   }
 }
   
-cf img.top { /* Imagen animada propiedades de la transicion */
+ /* Imagen animada propiedades de la transicion */
+ .top{ 
   animation-name: transicion;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 05s;
+  animation-duration: 04s;
   animation-direction: alternate;
 }
 
@@ -107,7 +112,7 @@ cf img.top { /* Imagen animada propiedades de la transicion */
 .historia > div{ /* Propiedades los recuadros de la historia */
   margin:   10px;
   padding:10px;
-  background-image: linear-gradient(to right, white , rgb(235, 235, 235));
+  background-image: linear-gradient(to right, rgb(82, 82, 82,.5), black);
   border-radius: 50px;
   line-height: 2rem;
 }
@@ -150,7 +155,8 @@ cf img.top { /* Imagen animada propiedades de la transicion */
 }
 .div4 div {
   padding:10px;
-  background-image: linear-gradient(to right, white , rgb(235, 235, 235));
+  background-image: linear-gradient(to right, rgb(82, 82, 82,.5), black);
+
   margin: 10px;
   border-radius: 50px;
   line-height: 2rem;
@@ -165,4 +171,21 @@ cf img.top { /* Imagen animada propiedades de la transicion */
   opacity: 100%;
 }
 
-/*fin biografia /*
+  /* Contacto */
+
+.contacto{
+  padding:10px;
+  background-image: linear-gradient(to right, rgb(82, 82, 82,.5), black);
+
+  margin: 10px;
+  border-radius: 50px;
+
+}
+
+  /* Discografia */
+
+  #table{
+    background-image: linear-gradient(to right, rgb(82, 82, 82,.5), black);
+    text-align: center;
+    margin-left: 20px;
+  }
