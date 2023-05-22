@@ -241,3 +241,26 @@ nav a:hover{ /*NAV A:HOVER CSS*/
 
 }
 
+/* CORTES PAGINA COMPLETA */
+@media (max-width: 480px) {
+/* Estilos para pantallas hasta 480px /
+.mi-seccion {
+font-size: 14px;
+margin-bottom: 10px;
+}
+}
+@media (min-width: 480px) and (max-width: 960px) {
+/ Estilos para pantallas de 480px a 960px /
+.mi-seccion {
+font-size: 16px;
+margin-bottom: 20px;
+}
+}
+@media (min-width: 960px) and (max-width: 1320px) {
+/ Estilos para pantallas de 960px a 1320px */
+.mi-seccion {
+font-size: 18px;
+margin-bottom: 30px;
+}
+}
+
