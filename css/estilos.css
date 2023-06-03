@@ -273,17 +273,30 @@ nav a:hover{ /*NAV A:HOVER CSS*/
   nav{
     padding: 10px 0px;
   }
+  
+    .test img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .test iframe{
+    width: 100px;
+    height: 100px;
+  }
+
+  .test h2{
+    text-size-adjust: 10px;
+  }
+
+  .test ol{
+    text-size-adjust: 10px;
+  }
 
   .dataform{
     width: 250px;
-    background-color:#343d46;
     padding: 40px;
     margin: auto;
     margin-top: 10px;
-    border-radius: 4px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-
   }
 
 }
