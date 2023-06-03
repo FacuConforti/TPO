@@ -265,7 +265,7 @@ nav a:hover{ /*NAV A:HOVER CSS*/
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 480px){
   header{
     flex-direction: column;
   }
